@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profile Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-4 offset-md-4 mt-5">
+            <div class="card">
+              <div class="card-header text-center">
+                <h4>Profile (From MongoDB Cloud)</h4>
+              </div>
+              <div class="card-body">
+                <form>
+                  <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" value="" readonly>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" value="" readonly>
+                  </div>
+                  <div class="form-group">
+                    <label for="age">Age:</label>
+                    <input type="number" class="form-control" id="age" value="30" readonly>
+                  </div>
+                  <div class="form-group">
+                    <label for="address">Address:</label>
+                    <textarea class="form-control" id="address" rows="3" readonly>123 Main St, Anytown USA</textarea>
+                  </div>
+                </form>
+              </div>
+              <div class="card-footer">
+                <a id="btn" class="btn btn-success">Delete Profile</a>
+              </div>
+              <h4>Your Login Sessions(From Redis):-</h4>
+              <ul id="list" class="list-group">
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="js/profile.js">	</script>
+  </body>
+</html>

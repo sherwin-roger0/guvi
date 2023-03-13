@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Page (My SQL)</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6 mt-5">
+          <h2 class="text-center mb-4">Registration Form(My SQL)</h2>
+            <div class="signup-form">
+                <div class="form-group">
+                  <input type="username" class="form-control" id="username" name="username" placeholder="Username*" required>
+                </div>
+                <div class="form-group">
+                  <input type="number" class="form-control" id="age" name="age" placeholder="Age*" required>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="email" name="email" placeholder="email*" required>
+                </div>
+                <div class="form-group">
+                  <textarea type="Address" class="form-control" id="address" name="address" placeholder="Address*" required></textarea>
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" id="password" name="password" placeholder="Password*" required>
+                </div>
+                <div class="form-group">
+                  <input type="button" id="btn" class="btn btn-success btn-lg btn-block" value="Submit Now">
+                </div>
+                <div id="thank_you_msg"></div>
+                <div id="err_msg"></div>
+                <br/>
+                Please wait for few seconds after clicking submit...
+                <br/><br/>
+              Already have an account ? <a href="login.html">Login..</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    <script src="js/register.js"></script>
+  </body>
+</html>
