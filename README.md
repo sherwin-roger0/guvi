@@ -43,15 +43,15 @@
 ![image](https://user-images.githubusercontent.com/50732268/224663729-22d79e13-545c-4b93-ad0b-d15dac80c360.png)
 
 ## Project Overview:-
-> User is registered using the MySql Cloud DataBase
-> User can be logged in using Mysql 
-> User profile information is displayed in Profile page using the Mongo Cloud Database and the sessions are also displayed using the Redis cloud
-> User sessions are stored in LocalStorage without the session in localstorage the user can't enter the profile page
-> JQuery and Ajax are used to interact with the backend PHP files
-> Form submissions are not used.
-> User can Delete the account from the profile page
+> User is registered using the MySql Cloud DataBase<br/>
+> User can be logged in using Mysql <br/>
+> User profile information is displayed in Profile page using the Mongo Cloud Database and the sessions are also displayed using the Redis cloud<br/>
+> User sessions are stored in LocalStorage without the session in localstorage the user can't enter the profile page<br/>
+> JQuery and Ajax are used to interact with the backend PHP files<br/>
+> Form submissions are not used.<br/>
+> User can Delete the account from the profile page<br/>
 
-#Project Demo
+# Project Demo
 https://user-images.githubusercontent.com/50732268/224667964-18d65dae-6200-43be-aec9-48dc61412a65.mp4
 
 
